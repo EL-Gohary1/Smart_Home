@@ -10,10 +10,10 @@
 #define LED_H_
 
 
-#define RED_LED          PINC0
-#define GREEN_LED        PINC1
-#define BLUE_LED         PINC2
-#define YELLOW_LED       PINC3
+#define RED_LED          PINB7
+#define GREEN_LED        PINA4
+#define BLUE_LED         PINA5
+#define YELLOW_LED       PINA6
 
 typedef  DIO_Pin_type   Led_t;
 

@@ -7,7 +7,7 @@
 #include "LED.h"
 #include "Servo.h"
 
-#include "Control_System.h"
+#include "Control_System_Using_Uart.h"
 
 extern	volatile String_t USART_SERVICE_RX_Buffer1[10];
 extern	volatile u8 USART_SERVICE_RXIndex;
@@ -116,6 +116,7 @@ void Control_System_vRunnable(void)
 			   //Check if the command isn't for Led 
 			   if (Local_u8Index>1)
 			   {
+				   LCD_vGoToCollRow(0,2);
 				   ArrayOFCommand[Local_u8Index].PtrF(Local_u8Num);
 			   }
 			   else

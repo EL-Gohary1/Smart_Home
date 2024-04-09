@@ -18,13 +18,13 @@ EIGTH_BIT_MODE
 #define LCD_MODE  FOUR_BIT_MODE
 #define EN        PINA2
 #define LCD_PORT  PD    //configuration 8 BIT MODE
-#define RS        PINA1
+#define RS        PINA3
 
 //configuration for 4 bit mode
-#define  D7 PINA6
-#define  D6 PINA5
-#define  D5 PINA4
-#define  D4 PINA3
+#define  D7 PINB4
+#define  D6 PINB2
+#define  D5 PINB1
+#define  D4 PINB0
 
  /*
  CURSOR_BLINK
@@ -32,6 +32,6 @@ EIGTH_BIT_MODE
  NOCURSOR_NOBLINK
  NOCURSOR_BLINK
  */
-#define CURSOR_BLINK_MODE     CURSOR_BLINK
+#define CURSOR_BLINK_MODE     NOCURSOR_NOBLINK
 
 #endif

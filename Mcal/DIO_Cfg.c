@@ -11,13 +11,13 @@
 
 const DIO_PinMode_type PinsModeArray[TOTAL_PINS]={
 	INFREE,      /* Port A Pin 0 */
-	OUTPUT,  	 /* Port A Pin 1 */
+	INFREE,  	 /* Port A Pin 1 */
 	OUTPUT,		 /* Port A Pin 2 */
 	OUTPUT,		 /* Port A Pin 3 */
 	OUTPUT,		 /* Port A Pin 4 */
 	OUTPUT,		 /* Port A Pin 5 */
 	OUTPUT,		 /* Port A Pin 6 */
-	OUTPUT,		 /* Port A Pin 7 */
+	INFREE,		 /* Port A Pin 7 */
 	OUTPUT,		 /* Port B Pin 0 */
 	OUTPUT,		 /* Port B Pin 1 */
 	OUTPUT,		 /* Port B Pin 2 */
@@ -37,10 +37,10 @@ const DIO_PinMode_type PinsModeArray[TOTAL_PINS]={
 	INFREE,		 /* Port D Pin 0 */
 	OUTPUT,		 /* Port D Pin 1 */
 	OUTPUT,		 /* Port D Pin 2 */
-	OUTPUT,		 /* Port D Pin 3 */
-	OUTPUT,		 /* Port D Pin 4 */
-	OUTPUT,		 /* Port D Pin 5 */
-	OUTPUT,		 /* Port D Pin 6 */
-	OUTPUT		 /* Port D Pin 7 */
+	INPULL,		 /* Port D Pin 3 */
+	INFREE,		 /* Port D Pin 4 */
+	INPULL,		 /* Port D Pin 5 */
+	INPULL,		 /* Port D Pin 6 */
+	INPULL		 /* Port D Pin 7 */
 };				 
 
