@@ -9,4 +9,5 @@
 #### NOTE : The command must end by '#'
 ### 3- Smart light Control system.
 #### Wait to Take threshold of brightness from user and compare it with the actual brightness to turn on or off blue led 
+#### NOTE : to Efit threshold press on 'c' button 
 ### This system will be designed to maximize the comfortable living For More Information about the SRS should be Explained On DOC Folder
